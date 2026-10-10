@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="17" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Selected sorting option: Name (A to Z)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-10T18:17:59 IST" name="Suite" finished-at="2026-10-10T18:18:36 IST" duration-ms="36936">
+    <groups>
+      <group name="functional">
+        <method signature="CartScript.VerifyAddtocart()[pri:0, instance:ecom.swaglabs.Cart.CartScript@609cd4d8]" name="VerifyAddtocart" class="ecom.swaglabs.Cart.CartScript"/>
+        <method signature="CheckoutScript.VerifyCheckoutDetails()[pri:0, instance:ecom.swaglabs.Checkout.CheckoutScript@bccb269]" name="VerifyCheckoutDetails" class="ecom.swaglabs.Checkout.CheckoutScript"/>
+        <method signature="LoginScript.VerifyLogin()[pri:0, instance:ecom.swaglabs.Login.LoginScript@3857f613]" name="VerifyLogin" class="ecom.swaglabs.Login.LoginScript"/>
+        <method signature="ProductCatalogTest.VerifyAllSortingOptions()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" name="VerifyAllSortingOptions" class="ecom.swaglabs.Product.ProductCatalogTest"/>
+        <method signature="ProductCatalogTest.VerifySelectedSortingOption()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" name="VerifySelectedSortingOption" class="ecom.swaglabs.Product.ProductCatalogTest"/>
+        <method signature="ProductCatalogTest.Verify_A_ZSorting()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" name="Verify_A_ZSorting" class="ecom.swaglabs.Product.ProductCatalogTest"/>
+        <method signature="ProductCatalogTest.Verify_Z_ASorting()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" name="Verify_Z_ASorting" class="ecom.swaglabs.Product.ProductCatalogTest"/>
+        <method signature="ProductCatalogTest.Verify_high_to_lowSorting()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" name="Verify_high_to_lowSorting" class="ecom.swaglabs.Product.ProductCatalogTest"/>
+        <method signature="ProductCatalogTest.Verify_low_to_highSorting()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" name="Verify_low_to_highSorting" class="ecom.swaglabs.Product.ProductCatalogTest"/>
+      </group> <!-- functional -->
+      <group name="integration">
+        <method signature="CartScript.VerifyAddtocart()[pri:0, instance:ecom.swaglabs.Cart.CartScript@609cd4d8]" name="VerifyAddtocart" class="ecom.swaglabs.Cart.CartScript"/>
+        <method signature="CheckoutScript.VerifyCheckoutDetails()[pri:0, instance:ecom.swaglabs.Checkout.CheckoutScript@bccb269]" name="VerifyCheckoutDetails" class="ecom.swaglabs.Checkout.CheckoutScript"/>
+        <method signature="LoginScript.VerifyLogin()[pri:0, instance:ecom.swaglabs.Login.LoginScript@3857f613]" name="VerifyLogin" class="ecom.swaglabs.Login.LoginScript"/>
+      </group> <!-- integration -->
+    </groups>
+    <test started-at="2026-10-10T18:17:59 IST" name="functionalTest" finished-at="2026-10-10T18:18:36 IST" duration-ms="36936">
+      <class name="ecom.swaglabs.Product.ProductCatalogTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:04 IST" name="setup" finished-at="2026-10-10T18:18:06 IST" duration-ms="1543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:06 IST" name="initialise" finished-at="2026-10-10T18:18:06 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="VerifyAllSortingOptions()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:06 IST" name="VerifyAllSortingOptions" finished-at="2026-10-10T18:18:06 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllSortingOptions -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:06 IST" name="setup" finished-at="2026-10-10T18:18:08 IST" duration-ms="1533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:08 IST" name="initialise" finished-at="2026-10-10T18:18:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="VerifySelectedSortingOption()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:08 IST" name="VerifySelectedSortingOption" finished-at="2026-10-10T18:18:09 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected sorting option: Name (A to Z)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySelectedSortingOption -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:09 IST" name="setup" finished-at="2026-10-10T18:18:10 IST" duration-ms="1481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:10 IST" name="initialise" finished-at="2026-10-10T18:18:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="Verify_A_ZSorting()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:10 IST" name="Verify_A_ZSorting" finished-at="2026-10-10T18:18:11 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_A_ZSorting -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:11 IST" name="setup" finished-at="2026-10-10T18:18:12 IST" duration-ms="1452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:12 IST" name="initialise" finished-at="2026-10-10T18:18:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="Verify_Z_ASorting()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:12 IST" name="Verify_Z_ASorting" finished-at="2026-10-10T18:18:13 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Z_ASorting -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:13 IST" name="setup" finished-at="2026-10-10T18:18:16 IST" duration-ms="2451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:16 IST" name="initialise" finished-at="2026-10-10T18:18:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="Verify_high_to_lowSorting()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:16 IST" name="Verify_high_to_lowSorting" finished-at="2026-10-10T18:18:17 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_high_to_lowSorting -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:17 IST" name="setup" finished-at="2026-10-10T18:18:20 IST" duration-ms="3721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:20 IST" name="initialise" finished-at="2026-10-10T18:18:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="Verify_low_to_highSorting()[pri:0, instance:ecom.swaglabs.Product.ProductCatalogTest@66d18979]" started-at="2026-10-10T18:18:20 IST" name="Verify_low_to_highSorting" finished-at="2026-10-10T18:18:21 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_low_to_highSorting -->
+      </class> <!-- ecom.swaglabs.Product.ProductCatalogTest -->
+      <class name="ecom.swaglabs.Login.LoginScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.LoginScript@3857f613]" started-at="2026-10-10T18:17:59 IST" name="setup" finished-at="2026-10-10T18:18:02 IST" duration-ms="2674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Login.LoginScript@3857f613]" started-at="2026-10-10T18:18:02 IST" name="initialise" finished-at="2026-10-10T18:18:02 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="VerifyLogin()[pri:0, instance:ecom.swaglabs.Login.LoginScript@3857f613]" started-at="2026-10-10T18:18:02 IST" name="VerifyLogin" finished-at="2026-10-10T18:18:04 IST" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+      </class> <!-- ecom.swaglabs.Login.LoginScript -->
+      <class name="ecom.swaglabs.Checkout.CheckoutScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Checkout.CheckoutScript@bccb269]" started-at="2026-10-10T18:18:21 IST" name="setup" finished-at="2026-10-10T18:18:31 IST" duration-ms="9669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Checkout.CheckoutScript@bccb269]" started-at="2026-10-10T18:18:31 IST" name="initialise" finished-at="2026-10-10T18:18:31 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="VerifyCheckoutDetails()[pri:0, instance:ecom.swaglabs.Checkout.CheckoutScript@bccb269]" started-at="2026-10-10T18:18:31 IST" name="VerifyCheckoutDetails" finished-at="2026-10-10T18:18:32 IST" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckoutDetails -->
+      </class> <!-- ecom.swaglabs.Checkout.CheckoutScript -->
+      <class name="ecom.swaglabs.Cart.CartScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ecom.swaglabs.Cart.CartScript@609cd4d8]" started-at="2026-10-10T18:18:32 IST" name="setup" finished-at="2026-10-10T18:18:35 IST" duration-ms="3262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ecom.swaglabs.Cart.CartScript@609cd4d8]" started-at="2026-10-10T18:18:35 IST" name="initialise" finished-at="2026-10-10T18:18:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="VerifyAddtocart()[pri:0, instance:ecom.swaglabs.Cart.CartScript@609cd4d8]" started-at="2026-10-10T18:18:35 IST" name="VerifyAddtocart" finished-at="2026-10-10T18:18:36 IST" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddtocart -->
+      </class> <!-- ecom.swaglabs.Cart.CartScript -->
+    </test> <!-- functionalTest -->
+  </suite> <!-- Suite -->
+</testng-results>

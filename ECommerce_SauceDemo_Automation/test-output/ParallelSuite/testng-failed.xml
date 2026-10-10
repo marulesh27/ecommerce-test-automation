@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [ParallelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="CartTest(failed)">
+    <classes>
+      <class name="ecom.swaglabs.Cart.CartScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="initialise"/>
+          <include name="logout"/>
+          <include name="VerifyCartAccess"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="VerifyAddtocart"/>
+          <include name="VerifyCartSystemFlow"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Cart.CartScript -->
+    </classes>
+  </test> <!-- CartTest(failed) -->
+  <test thread-count="4" parallel="tests" name="CheckoutTest(failed)">
+    <classes>
+      <class name="ecom.swaglabs.Checkout.CheckoutScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="logout"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="VerifyCheckoutDetails"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="initialise"/>
+          <include name="VerifyCompleteCheckoutFlow"/>
+          <include name="VerifyCheckoutPage"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Checkout.CheckoutScript -->
+    </classes>
+  </test> <!-- CheckoutTest(failed) -->
+  <test thread-count="4" parallel="tests" name="LoginTest(failed)">
+    <classes>
+      <class name="ecom.swaglabs.Login.LoginScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="logout"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="VerifyLogin"/>
+          <include name="initialise"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Login.LoginScript -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="4" parallel="tests" name="ProductTest(failed)">
+    <classes>
+      <class name="ecom.swaglabs.Product.ProductCatalogTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="logout"/>
+          <include name="VerifyProductPage"/>
+          <include name="Verify_low_to_highSorting"/>
+          <include name="afterTest"/>
+          <include name="VerifyDropdown"/>
+          <include name="Verify_A_ZSorting"/>
+          <include name="Verify_high_to_lowSorting"/>
+          <include name="initialise"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="VerifyProductCatalogSystemFlow"/>
+          <include name="beforeClass"/>
+          <include name="Verify_Z_ASorting"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Product.ProductCatalogTest -->
+    </classes>
+  </test> <!-- ProductTest(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->

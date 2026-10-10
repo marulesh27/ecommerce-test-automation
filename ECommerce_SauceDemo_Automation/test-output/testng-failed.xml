@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="system"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecom.swaglabs.Product.ProductCatalogTest">
+        <methods>
+          <include name="initialise"/>
+          <include name="setup"/>
+          <include name="VerifyProductCatalogSystemFlow"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Product.ProductCatalogTest -->
+      <class name="ecom.swaglabs.Cart.CartScript">
+        <methods>
+          <include name="initialise"/>
+          <include name="setup"/>
+          <include name="VerifyCartSystemFlow"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Cart.CartScript -->
+      <class name="ecom.swaglabs.Checkout.CheckoutScript">
+        <methods>
+          <include name="setup"/>
+          <include name="initialise"/>
+          <include name="VerifyCompleteCheckoutFlow"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Checkout.CheckoutScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
